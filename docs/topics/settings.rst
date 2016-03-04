@@ -789,6 +789,16 @@ If ``True``, all standard output (and error) of your process will be redirected
 to the log. For example if you ``print 'hello'`` it will appear in the Scrapy
 log.
 
+.. setting:: LOG_TOPLEVELFORMATTER_ENABLED
+
+LOG_TOPLEVELFORMATTER_ENABLED
+-----------
+
+Default: ``False``
+
+Whether to use long names in logging. For example [scrapy.core.scraper] instead
+of generic [scrapy] if false.
+
 .. setting:: MEMDEBUG_ENABLED
 
 MEMDEBUG_ENABLED
